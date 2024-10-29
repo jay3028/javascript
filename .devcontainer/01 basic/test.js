@@ -167,3 +167,74 @@
 
 // console.log(Math.floor(Math.random() * (max - min + 1)) + min);
 
+// -------------------Dates------------
+
+// let myDate = new Date();
+// // console.log(myDate.toString());
+// // console.log(myDate.toLocaleString());
+// // console.log(typeof myDate);
+
+// let myCreatedDate = new Date(2023, 0, 23);
+// console.log(myCreatedDate.toDateString());
+// let myCreatedDate = new Date("01-14-2023");
+// // console.log(myCreatedDate.toLocaleString());
+
+// let myTimeStamp = Date.now();
+// // console.log(myTimeStamp);
+
+// // console.log(myCreatedDate.getTime());
+// console.log(Math.floor(Date.now() / 1000));
+// console.log(Math.floor(Date.now()/1000));
+
+// let newDate = new Date();
+
+// console.log(newDate);
+
+// console.log(newDate.getMonth() + 1);
+
+// console.log(newDate.getDate());
+
+// // ${newDate.getDay()} and the time
+
+// newDate.toLocaleString('default' , {
+//       weekday: "Long",
+//      })
+
+//// array
+
+// const myArr = [0, 1, 2, 3, 4, 5];
+// const myHeors = ["shaktiman", "naagraj"];
+
+// const myArr2 = new Array(1, 2, 3, 4);
+// console.log(myArr[1]);
+// Array methods
+
+// myArr.push(6)
+// myArr.push(7)
+// myArr.pop()
+
+// console.log(myArr);
+// myArr.unshift(9)
+// myArr.shift()
+
+// console.log(myArr.includes(9));
+// console.log(myArr.indexOf(3));
+
+// const newArr = myArr.join();
+// console.log(newArr);
+
+// // slice, splice
+
+// console.log("A ", myArr);
+
+// const myn1 = myArr.slice(1, 3);
+
+// console.log(myn1);
+// console.log("B ", myArr);
+// const myn2 = myArr.splice(1, 3);
+
+// console.log("C ", myArr);
+
+// console.log(myn2);
+
+// --------------------- array part 2 ------------
