@@ -85,16 +85,85 @@
 // -----------stack(primitive) and heap(Non-primitive) memory
 
 // stag se hame sirf copy milta hai 
- let myYoutubename ="jaykumar.com"
+//  let myYoutubename ="jaykumar.com"
 
- let anothername = myYoutubename
- anothername = " jaybhai.com"
+//  let anothername = myYoutubename
+//  anothername = " jaybhai.com"
 
- let userOne = {
-    email:"user@google.com",
-    upi:"user@ybl"
- }
+//  let userOne = {
+//     email:"user@google.com",
+//     upi:"user@ybl"
+//  }
 
- let userTwo = userOne
+//  let userTwo = userOne
 
- userTwo.email = "jay@google"
+//  userTwo.email = "jay@google"
+
+// ------------------STRING ----------
+// const name ="jay"
+// const repoCount = 50
+
+// // console .log(name +repoCount + "Value");
+
+// console.log('hello my name is ${name} and my repo count is ${repoCount}');
+
+// const gameName = new String('jay')
+
+// console.log(gameName[0]);
+// console.log(gameName.__proto__);
+
+// console.log(gameName.length);
+// console.log(gameNmae.toUpperCase());
+// console.log(gameName.charAt(2));
+// console.log(gameName.indexOf('t'));
+
+// const newString = gameNamel.substring(0,4)
+// console.log(newString);
+
+// const anotherString = gameName.slice(-8,4)
+// console.log(newStringOne);
+// console.log(newStringOne,trim());
+
+// const url = "https://jay.com/jay%20kumar"
+
+// console.log(url.replace('%20','-'))
+// console.log(url.includes('sunder'))
+
+// console.log(gameName.split('-'));
+
+//----------------------Number and Maths --------------
+//  const score = 400
+//  console.log(score);
+
+//  const balance = new Number(100)
+//  console.log(balance);
+
+//  console.log(balance.toString().length);
+//  console.log(balance.toFixed(2));
+
+//  const otherNumber = 123.8966
+
+//  console.log(otherNumber.toPrecision(4));
+
+//  const hundreds = 1000000
+//  console.log(hundreds.toLocaleString('en-IN'));
+
+//---------------------Maths------------------------
+
+// console.log(Math.abs(-4));
+// console.log(Math.round(4.6));
+// console.log(Math.ceil(4.2));
+// console.log(Math.floor(4.9));
+// console.log(Math.min(4 , 9 , 7 , 6));
+// console.log(Math.max(6, 5, 7, 3, 9));
+
+
+// console.log(Math.random());
+// console.log(Math.random() * 10 + 1);
+// console.log(Math.floor(Math.random() * 10 + 1));
+
+// const min = 10;
+// const max = 20;
+
+// console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+
